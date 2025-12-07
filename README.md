@@ -1,4 +1,4 @@
-# 🎓 Online Course Platform – Backend (Spring Boot)
+# 🎓 SKY Online Course – Backend (Spring Boot)
 
 A production-ready Online Course Management System built using Spring Boot. It supports multi-role access (Student, Instructor, Admin) with secure authentication, course management, payment integration, and Redis-based session handling.
 

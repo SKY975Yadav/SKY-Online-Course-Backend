@@ -74,6 +74,10 @@ public class Conversion {
                 .feedbackList(course.getFeedbackList().stream()
                         .map(this::toResponseDto)
                         .collect(Collectors.toList()))
+                .moduleNames(course.getModules().stream()
+                        .map(Module::getModuleName)
+                        .toList())
+                .noOfStudentsEnrolled(course.getEnrollmentList().size())
                 .build();
     }
 

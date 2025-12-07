@@ -17,5 +17,7 @@ public class BasicCourseDetailsResponse {
     private String title;
     private String description;
     private BigDecimal price;
+    private int noOfStudentsEnrolled;
+    private List<String> moduleNames;
     private List<FeedbackResponseDTO> feedbackList;
 }

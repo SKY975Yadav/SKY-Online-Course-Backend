@@ -70,6 +70,8 @@ public class AuthService {
             }
 
             return ResponseEntity.ok(Map.of(
+                    "name" , user.getName(),
+                    "role", user.getRole(),
                     "token", token,
                     "message", message
             ));

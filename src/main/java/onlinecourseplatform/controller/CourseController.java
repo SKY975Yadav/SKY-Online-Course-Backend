@@ -79,7 +79,6 @@ public class CourseController {
         return ResponseEntity.ok(courseService.getCourseForStudent(id));
     }
 
-
     /**
      * Get all courses created by the logged-in instructor.
      */
@@ -130,7 +129,6 @@ public class CourseController {
         log.info("{} deleted course ID {}", isAdmin ? "Admin" : "Instructor", id);
         return ResponseEntity.ok("Course deleted successfully");
     }
-
 
     /**
      * Get students enrolled in a course (instructors only).

@@ -25,6 +25,6 @@ public class CourseRequestDTO {
     @DecimalMin(value = "0.0", message = "Price must be positive")
     private BigDecimal price;
 
-    @NotNull(message = "Modules is required")
+//    @NotNull(message = "Modules is required")
     private List<ModuleRequestDTO> modules;
 }
